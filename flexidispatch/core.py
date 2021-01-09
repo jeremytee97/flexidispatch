@@ -4,7 +4,11 @@ __all__ = ['Multimethod']
 
 # Cell
 class Multimethod:
-
+    """
+    Core class that dispatch the actual
+    computation to different functions
+    according to arbitary condition.
+    """
     def __init__(self, name, dispatch):
         self.name = name
         self.dispatch = dispatch

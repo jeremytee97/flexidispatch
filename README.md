@@ -22,19 +22,19 @@ def f(x):
     return "I am vega"
 ```
 
-
-
-
-    2
-
-
-
 ```python
 process({
     "framework":"polaris",
     "scores":{"P":1,"O":1}
 })
 ```
+
+
+
+
+    'I am polaris'
+
+
 
 ```python
 process({
@@ -43,3 +43,10 @@ process({
     "scores":{"V":1,"E":1}
 })
 ```
+
+
+
+
+    'I am vega'
+
+
