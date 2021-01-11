@@ -2,7 +2,8 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"Multimethod": "00_core.ipynb"}
+index = {"SignatureError": "00_core.ipynb",
+         "Multimethod": "00_core.ipynb"}
 
 modules = ["core.py"]
 
